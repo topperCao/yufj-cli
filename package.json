@@ -1,8 +1,8 @@
 {
   "bin": {
-    "YufJ-cli": "./bin/cli.js"
+    "yufj-cli": "./bin/yufj-cli.js"
   },
-  "name": "YufJ-cli",
+  "name": "yufj-cli",
   "version": "0.0.1",
   "description": "node-cli",
   "main": "index.js",
