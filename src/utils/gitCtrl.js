@@ -1,12 +1,12 @@
-import {
+const {
 	basename
-} from 'path';
-import request from 'request';
-import DownloadGitRepo from 'download-git-repo';
+} = require('path');
+const request = require('request');
+const DownloadGitRepo = require('download-git-repo');
 /**
  * git操作类
  */
-export default class gitCtrl {
+class gitCtrl {
 	constructor( type, registry ) {
 		this.type = type
 		this.registry = registry
@@ -107,4 +107,8 @@ export default class gitCtrl {
 			} );
 		} );
 	}
+}
+
+module.exports = {
+	gitCtrl
 }

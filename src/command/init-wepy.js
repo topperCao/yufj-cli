@@ -1,6 +1,6 @@
-import program from 'commander'
-import inquirer from 'inquirer'
-import gitCtrl from '../utils/gitCtrl'
+const program = require('commander')
+const inquirer = require('inquirer')
+const { gitCtrl } = require('../utils/gitCtrl')
 // 初始化git操作类
 let git = new gitCtrl('user', 'YufJi');
 
