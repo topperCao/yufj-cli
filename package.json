@@ -3,7 +3,7 @@
     "yufj-cli": "./bin/yufj-cli.js"
   },
   "name": "yufj-cli",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "node-cli",
   "main": "index.js",
   "scripts": {
@@ -12,7 +12,6 @@
   "author": "yufj",
   "license": "MIT",
   "dependencies": {
-    "@babel/cli": "^7.0.0-beta.53",
     "@babel/core": "^7.0.0-beta.53",
     "@babel/plugin-transform-runtime": "^7.0.0-beta.53",
     "@babel/polyfill": "^7.0.0-beta.53",
