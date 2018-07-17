@@ -5,15 +5,15 @@ const { gitCtrl } = require('../utils/gitCtrl')
 let git = new gitCtrl('user', 'YufJi');
 
 program
-	.command( 'init-wepy' )
-	.description( 'install github project to local' )
-	.action( async ( options ) => { //list命令的实现体
+	.command('init-wepy')
+	.description('install github project to local')
+	.action(async (options) => { //list命令的实现体
     try {
       console.log('loading...')
       let result = await git.downloadGitRepo('WepyWithSaga')
-  		console.log( result ? 'SUCCESS' : result )
+  		console.log(result ? 'SUCCESS' : result)
     } catch (e) {
       console.log(e);
     }
 	});
-program.parse( process.argv );
+program.parse(process.argv);
