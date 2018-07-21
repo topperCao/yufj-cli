@@ -98,7 +98,7 @@ class gitCtrl {
 
 		return new Promise( ( resolve, reject ) => {
       const path = process.cwd();
-			DownloadGitRepo( url, `${path}/newapp`, ( err ) => {
+			DownloadGitRepo( url, `${path}/initProject`, ( err ) => {
 				if ( err ) {
 					reject( err );
 					return;

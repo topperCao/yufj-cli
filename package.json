@@ -3,7 +3,7 @@
     "yufj-cli": "./bin/yufj-cli.js"
   },
   "name": "yufj-cli",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "description": "node-cli",
   "main": "index.js",
   "scripts": {
